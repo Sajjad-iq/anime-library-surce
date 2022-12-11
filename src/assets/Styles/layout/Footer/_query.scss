@@ -1,0 +1,23 @@
+.App {
+    @include PortraitTablet {
+        footer {
+
+            .header {
+
+                .logo {
+                    width: 85px;
+                }
+
+                .app-name {
+                    font-size: 1.7rem;
+                    margin-left: 20px;
+                }
+            }
+
+            .desc {
+                margin-top: 20px;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

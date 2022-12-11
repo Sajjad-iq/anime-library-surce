@@ -1,0 +1,25 @@
+@use '../../helpers/colors' as col;
+
+.App {
+    .anime-list-page {
+        .anime_list-header {
+            width: 95%;
+            @include flexCenter();
+            justify-content: space-between;
+            margin: 30px 0;
+
+            .header {
+                font-size: 1.3rem;
+                font-weight: 700;
+            }
+
+            .selector {
+                background-color: col.$light_black;
+                border: none;
+                width: 95px;
+                color: white;
+                font-family: 'Poppins', sans-serif;
+            }
+        }
+    }
+}

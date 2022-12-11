@@ -1,0 +1,15 @@
+.App {
+    .home {
+        @include flexCenter();
+        flex-direction: column;
+        width: 90%;
+        margin-top: 100px;
+
+        .anime-label-image {
+            border-radius: 15px;
+            width: 75%;
+        }
+    }
+}
+
+@import './AnimeInfoLabel';

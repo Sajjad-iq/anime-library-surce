@@ -1,0 +1,11 @@
+.load-more {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+    color: white;
+    font-weight: 500;
+    background-color: #DE0606;
+}

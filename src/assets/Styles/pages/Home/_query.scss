@@ -1,0 +1,137 @@
+.App {
+    @include PortraitTablet {
+        .home {
+            .anime-label-image {
+                border-radius: 15px;
+                width: 50%;
+            }
+
+            .anime-info-label {
+                margin-top: 50px;
+
+                .label {
+                    font-size: 2.2rem;
+                }
+
+                .label-header {
+                    font-size: 2.5rem;
+                }
+
+                .label-description {
+                    font-size: 1.8rem;
+                    height: 75px;
+                    width: 600px;
+                }
+
+                .button-component {
+                    font-size: 1.4rem;
+                    padding: 10px;
+                }
+
+
+                .genre-and-status-component {
+                    .genre-and-status-wrapper {
+                        .genre-and-status-element {
+                            margin: 10px 10px;
+
+                            .header {
+                                font-size: 2.2rem;
+                            }
+
+                            .p-name {
+                                font-size: 1.4rem;
+                            }
+
+                            .result-wrapper {
+
+                                .small-container {
+                                    font-size: 1.4rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+    @include WideTablet {
+        .home {
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-around;
+
+            .anime-label-image {
+                border-radius: 15px;
+                width: 30%;
+            }
+
+            .anime-info-label {
+                margin-top: 0;
+                margin: 15px;
+                width: 55%;
+                align-items: flex-start;
+
+                .label {
+                    font-size: 1.9rem;
+                }
+
+                .label-header {
+                    font-size: 1.8rem;
+                }
+
+                .label-description {
+                    margin-top: 25px;
+                    font-size: 1.3rem;
+                    width: 500px;
+                    height: 50px;
+                }
+
+                .button-component {
+                    padding: 10px;
+                    margin: 10px;
+                    font-size: 1rem;
+                }
+
+
+                .genre-and-status-component {
+                    margin-top: 25px;
+
+                    .genre-and-status-wrapper {
+                        flex-direction: row;
+                        align-items: flex-start;
+                        justify-content: space-between;
+
+
+                        .genre-and-status-element {
+                            margin: 5px;
+
+                            .header {
+                                font-size: 1.4rem;
+                                align-self: flex-start;
+                            }
+
+                            .p-name {
+                                font-size: 1rem;
+                                align-self: flex-start;
+                            }
+
+                            .result-wrapper {
+                                max-width: 300px;
+                                justify-content: flex-start;
+
+                                .small-container {
+                                    font-size: 1rem;
+                                    align-self: flex-start;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

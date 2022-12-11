@@ -1,0 +1,45 @@
+.App {
+    @include PortraitTablet {
+        .wrapper {
+            .search-wrapper {
+                .search-bar {
+                    font-size: 2rem;
+                    padding: 30px;
+                }
+
+                .close-btn-component {
+                    top: 37px;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        .search-result {
+
+            .not-found-result {
+                .header {
+                    font-size: 4rem
+                }
+
+                .body {
+                    font-size: 2rem
+                }
+            }
+
+            .result {
+                .search-result-card-component {
+                    .result-img {
+                        width: 100px;
+                        margin: 15px 10px;
+                    }
+
+                    .result-label {
+                        font-size: 1.8rem;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+}

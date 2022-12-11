@@ -1,0 +1,51 @@
+@use '../../helpers/colors' as col;
+
+.App {
+    .genre-and-status-component {
+        width: 90%;
+
+        .genre-and-status-wrapper {
+            width: 100%;
+            @include flexCenter();
+            flex-direction: column;
+            justify-content: space-around;
+
+            .genre-and-status-element {
+                @include flexCenter();
+                flex-direction: column;
+                margin: 10px 10px;
+
+                .header {
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    color: col.$white;
+                }
+
+                .p-name {
+                    color: col.$white;
+                    font-weight: 300;
+                }
+
+                .result-wrapper {
+                    @include flexCenter();
+                    width: 100%;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+
+                    .small-container {
+                        color: col.$white;
+                        font-weight: 300;
+                        @include flexCenter();
+
+                        .vertical-line {
+                            width: 1px;
+                            height: 15px;
+                            border-left: 1px solid white;
+                            margin: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

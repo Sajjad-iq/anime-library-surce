@@ -1,0 +1,38 @@
+@use '../../helpers/colors' as col;
+
+.App {
+    .home {
+        .anime-info-label {
+            text-align: center;
+            margin-top: 50px;
+            @include flexCenter();
+            flex-direction: column;
+
+            .label {
+                color: col.$red;
+                font-size: 1.5rem;
+                font-weight: 700;
+            }
+
+            .label-header {
+                font-size: 1.7rem;
+                color: col.$white;
+                margin: 5px;
+            }
+
+            .label-description {
+                font-size: 1.2rem;
+                color: col.$white;
+                margin-top: 50px;
+                font-weight: 300;
+                height: 30px;
+                width: 320px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+            }
+        }
+    }
+}
+
+@import './GenreAndStatus';

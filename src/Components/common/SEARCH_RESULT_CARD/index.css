@@ -1,0 +1,18 @@
+.search-result-card-component {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+    text-align: start;
+    font-family: 'Poppins', sans-serif;
+}
+
+.search-result-card-component .result-img {
+    border-radius: 15px;
+    margin: 5px 10px;
+}
+
+.search-result-card-component .result-label {
+    font-size: 1.2rem;
+}

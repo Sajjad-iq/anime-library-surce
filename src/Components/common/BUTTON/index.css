@@ -1,0 +1,15 @@
+.button-component {
+    padding: 13px 25px;
+    text-decoration: none;
+    background-color: #DE0606;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin: 40px;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.link {
+    border-radius: 10px;
+}

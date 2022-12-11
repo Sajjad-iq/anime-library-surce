@@ -1,0 +1,45 @@
+@use './helpers/colors' as col;
+@import './helpers/mixins';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    @include flexCenter();
+    font-family: 'Poppins', sans-serif;
+    background-color: col.$light_black;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.ReadMore {
+    height: fit-content !important;
+    overflow: visible !important;
+    white-space: unset !important;
+    text-overflow: clip;
+}
+
+.isInvalid {
+    outline: 1px solid red !important;
+}
+
+@import './pages/Home/index';
+@import './pages/AnimeList/index';
+@import './App/index';
+@import './layout/Nav/index';
+@import './layout/SearchField/SearchFiled';
+@import './pages/ErrorPage/index';
+@import './pages/WelcomePage/index';
+@import './layout/Footer/index';
+@import './MediaQuery/index';

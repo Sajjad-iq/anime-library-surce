@@ -1,0 +1,16 @@
+.App {
+    @include PortraitTablet {
+        .nav {
+            top: 50px;
+            padding: 0 35px;
+
+            .logo {
+                width: 50px;
+            }
+
+            .search-button-component {
+                font-size: 1.8rem;
+            }
+        }
+    }
+}

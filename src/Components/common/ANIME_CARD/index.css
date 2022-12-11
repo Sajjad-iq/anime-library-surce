@@ -1,0 +1,11 @@
+.anime-card {
+    background: none;
+    border: none;
+    margin: 10px;
+    width: 150px;
+}
+
+.anime-card .card-img {
+    border-radius: 8px;
+    width: 100%;
+}

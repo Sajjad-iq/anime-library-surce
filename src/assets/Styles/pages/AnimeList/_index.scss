@@ -1,0 +1,16 @@
+.App {
+    .anime-list-page {
+        @include flexCenter();
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 40px;
+
+        .cards-container {
+            @include flexCenter();
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@import './header';

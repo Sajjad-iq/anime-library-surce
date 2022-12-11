@@ -1,0 +1,10 @@
+.close-btn-component {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    z-index: 20;
+}

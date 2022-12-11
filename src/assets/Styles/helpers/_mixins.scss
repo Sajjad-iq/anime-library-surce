@@ -1,0 +1,56 @@
+@import './breakPoints';
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Query
+@mixin Tablet {
+    @media (min-width:map-get($breakPoints, 'Tablet')) {
+        @content
+    }
+}
+
+;
+
+@mixin WideTablet {
+    @media (min-width:map-get($breakPoints, 'WideTablet')) {
+        @content
+    }
+}
+
+;
+
+@mixin PortraitTablet {
+    @media (min-width:map-get($breakPoints, 'PortraitTablet')) {
+        @content
+    }
+}
+
+;
+
+@mixin BigTablet {
+    @media (min-width:map-get($breakPoints, 'BigTablet')) {
+        @content
+    }
+}
+
+;
+
+@mixin LargeLaptop {
+    @media (min-width:map-get($breakPoints, 'LargeLaptop')) {
+        @content
+    }
+}
+
+;
+
+@mixin FHDScreen {
+    @media (min-width:map-get($breakPoints, 'FHDScreen')) {
+        @content
+    }
+}
+
+;

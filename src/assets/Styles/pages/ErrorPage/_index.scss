@@ -1,0 +1,23 @@
+.App {
+    .error-page {
+        position: fixed;
+        top: 150px;
+        text-align: center;
+        margin: 25px;
+        z-index: 20;
+
+        .wrapper {
+            background-color: gray;
+            border-radius: 10px;
+            padding: 20px;
+
+            .header {
+                font-size: 1.7rem;
+            }
+
+            .body {
+                margin-top: 10px;
+            }
+        }
+    }
+}
